@@ -37,7 +37,7 @@ dependencies:
   - olefile=0.46=py37_0
   - openssl=1.1.1l=h7f8727e_0
   - pillow=8.4.0=py37h5aabda8_0
-  - pip=21.0.1=py37h06a4308_0
+  - pip=21.3.1
   - pycparser=2.20=py_2
   - python=3.7.11=h12debd9_0
   - pytorch=1.7.0=py3.7_cpu_0
