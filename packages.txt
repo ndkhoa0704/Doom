@@ -1,4 +1,5 @@
 build-essential
+pkg-config
 python3-dev
 zlib1g-dev
 libsdl2-dev

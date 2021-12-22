@@ -55,5 +55,7 @@ dependencies:
   - zlib=1.2.11=h7b6447c_3
   - zstd=1.4.9=haebb681_0
   - pip:
+    - p5py
+    - PEP517
     - opencv-contrib-python==4.5.4.58
     - vizdoom==1.1.11
