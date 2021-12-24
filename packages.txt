@@ -7,6 +7,13 @@ python3-pip
 g++
 make
 cmake
+mesa-utils
+linux-generic
+xserver-xorg-core
+xserver-xorg
+xserver-xorg-video-all
+xserver-xorg-input-all
+libwayland-egl1-mesa
 libsdl2-dev
 git
 zlib1g-dev

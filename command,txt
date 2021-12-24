@@ -1,1 +1,0 @@
-docker run koanguyn0407/doom_arnold_deployed_code ./run.sh track1 --n_bots 10

@@ -29,3 +29,7 @@ RUN apt-get install $(grep -vE "^\s*#" packages.txt  | tr "\n" " ") -y
 RUN conda env create -f environment.yml
 
 RUN conda init bash
+
+RUN export SDL_VIDEODRIVER=x11
+
+RUN export DISPLAY=:99.0;
