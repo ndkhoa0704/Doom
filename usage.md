@@ -1,4 +1,8 @@
 # Docker setup
+* Pull image
+```
+docker pull koanguyn0407/doom_arnold_deployed_code
+```
 * Run docker
 ```
 docker run -ti --rm \

@@ -32,4 +32,4 @@ RUN conda init bash
 
 RUN export SDL_VIDEODRIVER=x11
 
-RUN export DISPLAY=:99.0;
+RUN export DISPLAY=:99.0
