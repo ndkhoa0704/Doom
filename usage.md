@@ -5,10 +5,7 @@ docker pull koanguyn0407/doom_arnold_deployed_code
 ```
 * Run docker
 ```
-docker run -ti --rm \
-       -e DISPLAY=$DISPLAY \
-       -v /tmp/.X11-unix:/tmp/.X11-unix \
-        koanguyn0407/doom_arnold_deployed_code
+docker run -it --net=host --env="DISPLAY" --volume="$HOME/.Xauthority:/root/.Xauthority:rw" koanguyn0407/doom_arnold_deployed_code
 ```
 * Activate environment
 ```
